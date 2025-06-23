@@ -33,7 +33,6 @@
 
 
 section{
-    height: 100vh;
     margin: 20px auto; 
 }
 
@@ -41,11 +40,13 @@ header{
     position: sticky;
     top: 0;
     left: 0;
-    background-color: rgb(213, 229, 231);
+    background-image: url(imagens/1080x360.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 body{
-    background-image: url(download\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center;
@@ -64,13 +65,13 @@ body{
 .form-campo input {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #fdf55d;
     border-radius: 5px;
 }
 
 .container button {
-    background-color: #dddee7;
-    color: white;
+    background-color: #fdf55d;
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -85,23 +86,30 @@ form {
 
 section h2 {
     text-align: center;
+    color: #be4b16;
     margin-bottom: 30px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(240, 14, 14);
 }
 
 #item1 img {
     width: 75%;
     display: flex;
+    margin: 0 auto;
+    
 }
 
 #item2 img {
     width: 75%;
     display: flex;
+    margin: 0 auto;
+    
 }
 
 #item3 img {
     width: 75%;
     display: flex;
+    margin: 0 auto;
+    
 }
 
 .container {
@@ -109,6 +117,51 @@ section h2 {
     margin: 0 auto;
     padding: 20px;
     margin-top: 30px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: #be4b16;
+}
+
+
+.artigos article{
+    text-align:center
+    
+}
+s
+
+.artigos button{
+    border: 1;
+    border-color: #fdb55d;
+    color: #be4b16;
+    background-color: #fdf55d;
+}
+
+.container button{
+    border: 1;
+    border-color: #fdb55d;
+    color: #be4b16;
+    background-color: #fdf55d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto";
+}
+
+.artigos h3{
+    color: #be4b16;
+}
+
+section article{
+    border: 2px solid #be4b16;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+}
+
+section article button{
+    border: 3;
+    border-color: #fdb55d;
+    color: #be4b16;
+    background-color: #fdf55d;
 }
